@@ -90,7 +90,7 @@ void app_profile()
 
     gtk_widget_add_css_class(error, "red-text"); // Add CSS class
 
-    // CSSs to change text color for the class ".red-text" applied to the label named "text"
+    // CSS to change text color for the class ".red-text" applied to the label named "text"
     const char *css = "#text { color: red; }";
     GtkCssProvider *provider = gtk_css_provider_new();
     gtk_css_provider_load_from_string(provider, css);
