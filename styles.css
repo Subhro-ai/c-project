@@ -1,0 +1,36 @@
+window {
+    background-image: url(image.jpg);
+    background-color: rgb(241, 255, 253);
+}
+
+button {
+    background-color: #e5f5ff;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    border: none;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+/* Button scaling on hover */
+button:hover {
+    transform: scale(1.1); /* Scale to 110% when hovering */
+}
+
+#title {
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#error {
+    font-size: 5px;
+    transition: transform 0.3s ease;
+    transform: scale(3);
+    color: #5e0000;
+}
+
+#details {
+    font-size: 15px;
+    font-weight: bold;
+}
