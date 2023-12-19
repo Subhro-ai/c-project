@@ -107,6 +107,7 @@ void app_profile()
     gtk_box_append(GTK_BOX(boxv), boxh1);
     //gtk_box_append(GTK_BOX(boxh1), leftSpace);
     gtk_box_append(GTK_BOX(boxh1), name); 
+    //this comment is added for testing
     gtk_box_append(GTK_BOX(boxv), boxh3); 
     gtk_box_append(GTK_BOX(boxh3), text1); 
     gtk_box_append(GTK_BOX(boxh3), balance);
